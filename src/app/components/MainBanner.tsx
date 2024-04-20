@@ -7,7 +7,7 @@ import Image from "next/image";
 const MainBanner = () => {
     return (
         <div className="bg-[url('./images/main-banner.png')] h-587 bg-center bg-cover -mr-4 -ml-4 flex flex-col gap-3 items-center justify-center m-auto">
-        <h2 className=" text-5xl text-white font-bold md:text-2xl sm:text-center">
+        <h2 className=" text-5xl text-white font-bold md:text-xl sm:text-center">
           Арабска приказка в Йордания
         </h2>
         <div className=" border px-6 py-1 text-white">11-15 Март</div>

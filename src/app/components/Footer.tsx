@@ -10,7 +10,7 @@ const Footer = () => {
         <div className=" bg-stone-700 -mx-5">
             <div className=" py-11 flex max-w-6xl m-auto justify-between text-white px-3 lg:flex-col lg:items-center">
                 <h2 className="text-2xl max-w-xl  font-extrabold ml-4 sm:mx-2 lg:text-center lg:mb-3 lg:ml-0 sm:text-lg">Отстъпки и специални предложения налични само на имейл</h2>
-                <div className="flex flex-col gap-3 mr-4 sm:items-end">
+                <div className="flex flex-col gap-3 mr-4 sm:items-center sm:ml-5">
                     <div>
                         <input type="text" placeholder="Въведете вашия имейл" className="py-2 w-96 sm:w-11/12 pl-3"/>
                         <button className=" bg-red-600 py-2 pl-5 sm:mt-2">Абонирай се</button>
@@ -47,7 +47,7 @@ const Footer = () => {
                 {/* Second footer column start */}
                 <div className="flex flex-col gap-6 mt-14">
                     <h4 className=" font-extrabold ">Контакти</h4>
-                    <div className="flex flex-col gap-3">
+                    <div className="flex flex-col gap-3 sm:text-sm">
                         <p>1111 София, България, <br />ул. Христо Белчев 34</p>
                         <p>+359 884 47 30 34 // мобилен</p>
                         <p>+359 2 980 44 59 // офис</p>
@@ -64,12 +64,12 @@ const Footer = () => {
                     <div className="flex flex-col gap-6">
                     <h4 className=" font-extrabold ">Бързи връзки</h4>
                     <div className="flex gap-16">
-                    <div className="flex flex-col gap-3">
+                    <div className="flex flex-col gap-3 sm:text-sm">
                         <p>За нас</p>
                         <p>Документи</p>
                         <p>Начин на <br />плащане</p>
                     </div>
-                    <div className="flex flex-col gap-3 self-center">
+                    <div className="flex flex-col gap-3 self-center sm:text-sm">
                         <p>Общи условия</p>
                         <p>Лични данни</p>
                         <p>Контакти</p>
@@ -81,11 +81,11 @@ const Footer = () => {
                 {/* Third footer column end */}
 
                 {/* Last footer column start */}
-                <div className="flex flex-col gap-5 mt-14 items-center mr-4 lg:mr-2">
-                    <h4>120к ни харесват в </h4>
-                    <Image src={Facebook} alt={"Facebook"}/>
-                    <h4>60к ни харесват в </h4>
-                    <Image src={Instagram} alt={"Instagram"}/>
+                <div className="flex flex-col gap-5 mt-14 sm:mt-4 items-center mr-4 lg:mr-2 sm:flex-row">
+                    <h4 className=" sm:text-sm">120к ни харесват в </h4>
+                    <Image src={Facebook} alt={"Facebook"} className=" sm:w-8"/>
+                    <h4 className=" sm:text-sm">60к ни харесват в </h4>
+                    <Image src={Instagram} alt={"Instagram"} className=" sm:w-8"/>
                 </div>
                 {/* Last footer column end */}
                 </div>

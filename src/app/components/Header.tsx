@@ -12,7 +12,7 @@ const Header = () => {
       <Image src={Logo} height={62} className=" w-28 h-16 lg:ml-3 sm:w-20" alt={"Logo"} />
       <svg
       onClick={() => {setMenu(true)}}
-      className=" hidden md:block md:self-center"
+      className=" hidden md:block md:self-center mr-4"
         width="27"
         height="23"
         viewBox="0 0 27 23"
@@ -25,8 +25,8 @@ const Header = () => {
         />
       </svg>
       {menu && (
-        <div className=" fixed right-0 flex flex-col bg-white p-10 h-svh z-10 gap-5">
-          <div className=" fixed right-4 top-4"><Image src={Cross} width={20} onClick={() => { setMenu(false); } } alt={"Cross"}/></div>
+        <div className=" fixed right-0 flex flex-col bg-white p-10 h-svh z-10 gap-8">
+          <div className=" fixed right-4 top-4 mr-6"><Image src={Cross} width={20} onClick={() => { setMenu(false); } } alt={"Cross"}/></div>
           <a href="#">Почивки и екскурзии</a>
           <a href="#">Хотели</a>
           <a href="#">Блог</a>
