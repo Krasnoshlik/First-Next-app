@@ -24,7 +24,7 @@ const PreFooter = () => {
         <div className="grid grid-cols-4 gap-7 mx-4 lg:grid-cols-2 lg:m-auto sm:flex sm:flex-col">
 
           <div className=" bg-white shadow-xl lg:max-w-72">
-            <Image src={Tour1} />
+            <Image src={Tour1} alt={"Tour1"} />
             <div className=" p-5">
               <p className=" text-sm font-bold mb-4">
                 Ски в Алпите в курорта Иглс, Австрия хотел Bon Alpina 3*
@@ -36,15 +36,15 @@ const PreFooter = () => {
                 </div>
                 <div className=" flex flex-col">
                   <div className=" text-gray-400 flex gap-2">
-                    <Image src={Bed} />
+                    <Image src={Bed} alt={"Bed"} />
                     <p>8 нощувки</p>
                   </div>
                   <div className=" text-gray-400 flex gap-2">
-                    <Image src={Airplane} width={20} />
+                    <Image src={Airplane} width={20} alt={"Airplane"} />
                     <p>Самолет</p>
                   </div>
                   <div className=" text-gray-400 flex gap-2">
-                    <Image src={Location} />
+                    <Image src={Location} alt={"Location"} />
                     <p>Австрия</p>
                   </div>
                 </div>
@@ -53,7 +53,7 @@ const PreFooter = () => {
           </div>
 
           <div className=" bg-white shadow-xl lg:max-w-72">
-            <Image src={Tour2} />
+            <Image src={Tour2} alt={"Tour2"} />
             <div className=" p-5">
               <p className=" text-sm font-bold mb-4">
                 Ски в Алпите в курорта Иглс, Австрия хотел Bon Alpina 3*
@@ -65,15 +65,15 @@ const PreFooter = () => {
                 </div>
                 <div className=" flex flex-col">
                   <div className=" text-gray-400 flex gap-2">
-                    <Image src={Bed} />
+                    <Image src={Bed} alt={"Bed"} />
                     <p>8 нощувки</p>
                   </div>
                   <div className=" text-gray-400 flex gap-2">
-                    <Image src={Airplane} width={20} />
+                    <Image src={Airplane} width={20} alt={"Airplane"} />
                     <p>Самолет</p>
                   </div>
                   <div className=" text-gray-400 flex gap-2">
-                    <Image src={Location} />
+                    <Image src={Location} alt={"Location"} />
                     <p>Австрия</p>
                   </div>
                 </div>
@@ -82,7 +82,7 @@ const PreFooter = () => {
           </div>
 
           <div className=" bg-white shadow-xl lg:max-w-72">
-            <Image src={Tour1} />
+            <Image src={Tour1} alt={"Tour1"} />
             <div className=" p-5">
               <p className=" text-sm font-bold mb-4">
                 Ски в Алпите в курорта Иглс, Австрия хотел Bon Alpina 3*
@@ -94,15 +94,15 @@ const PreFooter = () => {
                 </div>
                 <div className=" flex flex-col">
                   <div className=" text-gray-400 flex gap-2">
-                    <Image src={Bed} />
+                    <Image src={Bed} alt={"Bed"} />
                     <p>8 нощувки</p>
                   </div>
                   <div className=" text-gray-400 flex gap-2">
-                    <Image src={Airplane} width={20} />
+                    <Image src={Airplane} width={20} alt={"Airplane"} />
                     <p>Самолет</p>
                   </div>
                   <div className=" text-gray-400 flex gap-2">
-                    <Image src={Location} />
+                    <Image src={Location} alt={"Location"} />
                     <p>Австрия</p>
                   </div>
                 </div>
@@ -111,7 +111,7 @@ const PreFooter = () => {
           </div>
 
           <div className=" bg-white shadow-xl lg:max-w-72">
-            <Image src={Tour2} />
+            <Image src={Tour2} alt={"Tour2"} />
             <div className=" p-5">
               <p className=" text-sm font-bold mb-4">
                 Ски в Алпите в курорта Иглс, Австрия хотел Bon Alpina 3*
@@ -123,15 +123,15 @@ const PreFooter = () => {
                 </div>
                 <div className=" flex flex-col">
                   <div className=" text-gray-400 flex gap-2">
-                    <Image src={Bed} />
+                    <Image src={Bed} alt={"Bed"} />
                     <p>8 нощувки</p>
                   </div>
                   <div className=" text-gray-400 flex gap-2">
-                    <Image src={Airplane} width={20} />
+                    <Image src={Airplane} width={20} alt={"Airplane"} />
                     <p>Самолет</p>
                   </div>
                   <div className=" text-gray-400 flex gap-2">
-                    <Image src={Location} />
+                    <Image src={Location} alt={"Location"} />
                     <p>Австрия</p>
                   </div>
                 </div>
@@ -151,34 +151,34 @@ const PreFooter = () => {
         </div>
         <div className=" grid grid-cols-2 md-min:gap-14 md:gap-2 sm-min:grid-cols-5 lg:mx-5 sm:justify-center">
           <div className=" justify-self-center">
-            <Image src={Logo1}/>
+            <Image src={Logo1} alt={"Logo1"}/>
           </div>
           <div className=" justify-self-center">
-            <Image src={Logo2}/>
+            <Image src={Logo2} alt={"Logo2"}/>
           </div>
           <div className=" justify-self-center">
-            <Image src={Logo3}/>
+            <Image src={Logo3} alt={"Logo3"}/>
           </div>
           <div className=" justify-self-center">
-            <Image src={Logo4}/>
+            <Image src={Logo4} alt={"Logo4"}/>
           </div>
           <div className=" justify-self-center">
-            <Image src={Logo5}/>
+            <Image src={Logo5} alt={"Logo5"}/>
           </div>
           <div className=" justify-self-center">
-            <Image src={Logo6}/>
+            <Image src={Logo6} alt={"Logo6"}/>
           </div>
           <div className=" justify-self-center">
-            <Image src={Logo7}/>
+            <Image src={Logo7} alt={"Logo7"}/>
           </div>
           <div className=" justify-self-center">
-            <Image src={Logo8}/>
+            <Image src={Logo8} alt={"Logo8"}/>
           </div>
           <div className=" justify-self-center">
-            <Image src={Logo9}/>
+            <Image src={Logo9} alt={"Logo9"}/>
           </div>
           <div className=" justify-self-center">
-            <Image src={Logo10}/>
+            <Image src={Logo10} alt={"Logo10"}/>
           </div>
         </div>
         </div>

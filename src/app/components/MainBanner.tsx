@@ -41,22 +41,22 @@ const MainBanner = () => {
         {/* Reservation blocks start */}
         <div className="grid grid-cols-4 gap-4 relative top-20 md:grid-cols-2 sm:gap-2">
           <div className=" px-10 py-4 bg-red-500 text-white flex flex-col items-center justify-center gap-2">
-            <Image src={Bed} width={40} className="max-h-7" />
+            <Image src={Bed} width={40} className="max-h-7" alt={"Bed"} />
             <p>8 нощувки</p>
           </div>
 
           <div className=" px-10 py-4 bg-red-500 text-white flex flex-col items-center gap-2">
-            <Image src={Airplane} width={40} className="max-h-7" />
+            <Image src={Airplane} width={40} className="max-h-7" alt={"Airplane"} />
             <p>Самолет</p>
           </div>
 
           <div className=" px-10 py-4 bg-red-500 text-white flex flex-col items-center gap-2">
-            <Image src={Map} width={40} className="max-h-7" />
+            <Image src={Map} width={40} className="max-h-7" alt={"Map"} />
             <p>Австрия</p>
           </div>
 
           <div className=" px-10 py-4 bg-red-500 text-white flex flex-col items-center gap-2">
-            <Image src={Calendar} width={40} className="max-h-7" />
+            <Image src={Calendar} width={40} className="max-h-7" alt={"Calendar"} />
             <p>11 - 15 Mart</p>
           </div>
         </div>

@@ -47,12 +47,12 @@ const MainInfo = () => {
         {/* Gallery start  */}
         <h2 className=" text-2xl font-bold mb-2 sm:text-lg">Галерия</h2>
         <div className="grid grid-cols-4 grid-rows-2 gap-4 sm:gap-2 grid-flow-row-dense h-80 sm:grid-cols-2 sm:grid-rows-4 sm:h-full">
-          <Image src={LongGallery} className=" col-span-2 h-full w-full" />
-          <Image src={SmallGallery} className="h-full w-full" />
-          <Image src={SmallGallery} className="h-full w-full" />
-          <Image src={SmallGallery} className="h-full w-full" />
-          <Image src={SmallGallery} className="h-full w-full" />
-          <Image src={LongGallery} className=" col-span-2 h-full w-full" />
+          <Image src={LongGallery} className=" col-span-2 h-full w-full" alt={"LongGallery"} />
+          <Image src={SmallGallery} className="h-full w-full" alt={"SmallGallery"} />
+          <Image src={SmallGallery} className="h-full w-full" alt={"SmallGallery"} />
+          <Image src={SmallGallery} className="h-full w-full" alt={"SmallGallery"} />
+          <Image src={SmallGallery} className="h-full w-full" alt={"SmallGallery"} />
+          <Image src={LongGallery} className=" col-span-2 h-full w-full" alt={"LongGallery"} />
         </div>
         {/* Gallery end  */}
 
@@ -91,22 +91,22 @@ const MainInfo = () => {
         <h2 className=" text-lg font-bold">Изпълнители</h2>
         <div className="flex text-center gap-4 lg:justify-center sm:grid sm:grid-cols-2 sm:justify-items-center">
           <div>
-            <Image src={Joe} />
+            <Image src={Joe} alt={"Joe"} />
             <p className=" text-sm mt-2">Fat Joe</p>
           </div>
 
           <div>
-            <Image src={Eminem} />
+            <Image src={Eminem} alt={"Eminem"} />
             <p className=" text-sm mt-2">Eminem</p>
           </div>
 
           <div>
-            <Image src={Cent} />
+            <Image src={Cent} alt={"Cent"} />
             <p className=" text-sm mt-2">50 cent</p>
           </div>
 
           <div>
-            <Image src={Jay} />
+            <Image src={Jay} alt={"Jay"} />
             <p className=" text-sm mt-2">Jay-Z</p>
           </div>
         </div>
@@ -117,7 +117,7 @@ const MainInfo = () => {
         <div>
           <div className="flex flex-col gap-6">
             <div className="flex gap-4">
-              <Image src={Hotel} />
+              <Image src={Hotel} alt={"Hotel"} />
               <h3 className="font-bold text-2xl sm:text-lg">Grand Halic 4****</h3>
             </div>
             <p className=" sm:text-sm">
@@ -133,12 +133,12 @@ const MainInfo = () => {
               безплатен WiFi достъп.
             </p>
             <div className="flex gap-2.5 items-center -mx-5 lg:m-0 lg:justify-center">
-              <Image src={LeftArrow} />
-              <Image src={Hotel1} />
-              <Image src={Hotel2} className=" sm:hidden"/>
-              <Image src={Hotel3} className=" sm:hidden"/>
-              <Image src={Hotel4} className=" md:hidden"/>
-              <Image src={RightArrow} />
+              <Image src={LeftArrow} alt={"LeftArrow"} />
+              <Image src={Hotel1} alt={"Hotel1"} />
+              <Image src={Hotel2} className=" sm:hidden" alt={"Hotel2"}/>
+              <Image src={Hotel3} className=" sm:hidden" alt={"Hotel3"}/>
+              <Image src={Hotel4} className=" md:hidden" alt={"Hotel4"}/>
+              <Image src={RightArrow} alt={"RightArrow"} />
             </div>
           </div>
 
@@ -146,7 +146,7 @@ const MainInfo = () => {
 
           <div className="flex flex-col gap-6">
             <div className="flex gap-4">
-              <Image src={Hotel} />
+              <Image src={Hotel} alt={"Hotel"} />
               <h3 className="font-bold text-2xl sm:text-lg">Grand Halic 4****</h3>
             </div>
             <p className=" sm:text-sm">
@@ -162,12 +162,12 @@ const MainInfo = () => {
               безплатен WiFi достъп.
             </p>
             <div className="flex gap-2.5 items-center -mx-5 lg:m-0 lg:justify-center">
-              <Image src={LeftArrow} />
-              <Image src={Hotel1} />
-              <Image src={Hotel2} className=" sm:hidden"/>
-              <Image src={Hotel3} className=" sm:hidden"/>
-              <Image src={Hotel4} className=" md:hidden"/>
-              <Image src={RightArrow} />
+              <Image src={LeftArrow} alt={"LeftArrow"} />
+              <Image src={Hotel1} alt={"Hotel1"} />
+              <Image src={Hotel2} className=" sm:hidden" alt={"Hotel2"}/>
+              <Image src={Hotel3} className=" sm:hidden" alt={"Hotel3"}/>
+              <Image src={Hotel4} className=" md:hidden" alt={"Hotel4"}/>
+              <Image src={RightArrow} alt={"RightArrow"} />
             </div>
           </div>
           <span className="block w-fill border mt-6 mb-6"></span>
@@ -184,10 +184,10 @@ const MainInfo = () => {
                 will lessen the chance of work having to be completely redone.
               </p>
             </div>
-            <Image src={Polygon} className="relative left-3 bottom-22" />
+            <Image src={Polygon} className="relative left-3 bottom-22" alt={"Polygon"} />
             <div className="flex my-2 gap-5">
               <div className=" bg-red-500 p-4 rounded-3xl">
-                <Image src={RedAvatar} />
+                <Image src={RedAvatar} alt={"RedAvatar"} />
               </div>
               <div>
                 <h3 className="font-bold">John Johnson</h3>
@@ -203,9 +203,9 @@ const MainInfo = () => {
                 or information architecture.
               </p>
             </div>
-            <Image src={Polygon} className="relative left-3 bottom-22" />
+            <Image src={Polygon} className="relative left-3 bottom-22" alt={"Polygon"} />
             <div className="flex my-1 gap-5">
-              <Image src={RealAvatar} />
+              <Image src={RealAvatar} alt={"RealAvatar"} />
               <div>
                 <h3 className="font-bold">Cha Ji-Hun</h3>
                 <p className=" text-sm">Co-founder of Forpeople</p>
@@ -221,10 +221,10 @@ const MainInfo = () => {
                 will lessen the chance of work having to be completely redone.
               </p>
             </div>
-            <Image src={Polygon} className="relative left-3 bottom-22" />
+            <Image src={Polygon} className="relative left-3 bottom-22" alt={"Polygon"} />
             <div className="flex my-2 gap-5">
               <div className=" bg-red-500 p-4 rounded-3xl">
-                <Image src={RedAvatar} />
+                <Image src={RedAvatar} alt={"RedAvatar"} />
               </div>
               <div>
                 <h3 className="font-bold">John Johnson</h3>
@@ -240,9 +240,9 @@ const MainInfo = () => {
                 or information architecture.
               </p>
             </div>
-            <Image src={Polygon} className="relative left-3 bottom-22" />
+            <Image src={Polygon} className="relative left-3 bottom-22" alt={"Polygon"} />
             <div className="flex my-2 gap-5">
-              <Image src={RealAvatar} />
+              <Image src={RealAvatar} alt={"RealAvatar"} />
               <div>
                 <h3 className="font-bold">Cha Ji-Hun</h3>
                 <p className=" text-sm">Co-founder of Forpeople</p>
@@ -260,7 +260,7 @@ const MainInfo = () => {
       <div className=" sm:flex sm:flex-col grid lg:m-auto lg:grid-cols-2 lg:mx-5 sm:gap-4">
         <div className="flex gap-5">
           <div className=" flex flex-col items-center"> 
-            <Image src={Calendar} className=" min-w-6" />
+            <Image src={Calendar} className=" min-w-6" alt={"Calendar"} />
             <span className="w-0.5 h-full border block mt-3"></span>
           </div>
           <div className="flex flex-col gap-2">
@@ -291,7 +291,7 @@ const MainInfo = () => {
 
         <div className="flex gap-5">
           <div className=" flex flex-col items-center">
-            <Image src={Calendar} className=" min-w-6" />
+            <Image src={Calendar} className=" min-w-6" alt={"Calendar"} />
             <span className="w-0.5 h-full border block mt-3"></span>
           </div>
           <div className="flex flex-col gap-2">
@@ -313,7 +313,7 @@ const MainInfo = () => {
 
         <div className="flex gap-5">
           <div className=" flex flex-col items-center">
-            <Image src={Calendar} className=" min-w-6" />
+            <Image src={Calendar} className=" min-w-6" alt={"Calendar"} />
             <span className="w-0.5 h-full border block mt-3"></span>
           </div>
           <div className="flex flex-col gap-2">
@@ -332,7 +332,7 @@ const MainInfo = () => {
 
         <div className="flex gap-5">
           <div className=" flex flex-col items-center">
-            <Image src={Calendar} className=" min-w-6" />
+            <Image src={Calendar} className=" min-w-6" alt={"Calendar"} />
             <span className="w-0.5 h-full border block mt-3"></span>
           </div>
           <div className="flex flex-col gap-2">
@@ -358,7 +358,7 @@ const MainInfo = () => {
 
         <div className="flex gap-5">
           <div className=" flex flex-col items-center">
-            <Image src={Calendar} className=" min-w-6" />
+            <Image src={Calendar} className=" min-w-6" alt={"Calendar"} />
             <span className="w-0.5 h-full border block mt-3"></span>
           </div>
           <div className="flex flex-col gap-2">

@@ -26,17 +26,17 @@ const Footer = () => {
             <div className=" flex flex-row sm:flex-col-reverse gap-24 lg:justify-between lg:w-4/5 lg:m-auto ">
                 {/* First footer column start */}
                 <div className="flex flex-col gap-11 ml-4">
-                    <Image src={Logo}/>
+                    <Image src={Logo} alt={"Logo"}/>
 
                     <div className="flex flex-col gap-5">
 
                     <div className="flex sm-min:justify-between gap-3">
-                        <Image src={License}/>
+                        <Image src={License} alt={"License"}/>
                         <p className=" max-w-32 text-xs font-extrabold">Лиценз, удостоверение за регистрация № 05236</p>
                     </div>
 
                     <div className="flex sm-min:justify-between gap-3">
-                        <Image src={Shild}/>
+                        <Image src={Shild} alt={"Shild"}/>
                         <p className=" max-w-32 text-xs font-extrabold">Застраховка "Отговорност на туроператора"</p>
                     </div>
                     </div>
@@ -83,9 +83,9 @@ const Footer = () => {
                 {/* Last footer column start */}
                 <div className="flex flex-col gap-5 mt-14 items-center mr-4 lg:mr-2">
                     <h4>120к ни харесват в </h4>
-                    <Image src={Facebook}/>
+                    <Image src={Facebook} alt={"Facebook"}/>
                     <h4>60к ни харесват в </h4>
-                    <Image src={Instagram}/>
+                    <Image src={Instagram} alt={"Instagram"}/>
                 </div>
                 {/* Last footer column end */}
                 </div>
